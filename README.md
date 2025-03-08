@@ -16,7 +16,7 @@ The system allows:
   - **Librarians:** Manage the library, including adding or removing books and users.
 - **Password Authentication:** Each user has a password used during login.
 - **Data Persistence:**  
-  Books and users are stored in `books.txt` and `users.txt` files, respectively.
+  Books and users are stored in books.txt and users.txt files, respectively.
 - **Simulated Time:**  
   For testing purposes, the system simulates the passage of days in minutes (1 minute = 1 simulated day).
 
@@ -57,12 +57,11 @@ If not found, You have to upload both files in the same directry as the main fil
 ## 3. Default Credentials
 - For testing purposes, the system comes preloaded with default login credentials:
 
-**Student Accounts**:
-- For example, User ID: 101 with Password: pass101 (Other student IDs might be available as well.)
-**Faculty Accounts**:
-- For example, User ID: 201 with Password: pass201 (Additional faculty IDs may be included.)
-**Librarian (Admin) Account**:
-- User ID: 301 with Password: pass301
+**Student Accounts**: For example, User ID: 101 with Password: pass101 (Other student IDs might be available as well).
+
+**Faculty Accounts**: For example, User ID: 201 with Password: pass201 (Additional faculty IDs may be included).
+
+**Librarian (Admin) Account**: User ID: 301 with Password: pass301
 
 ## 4. Code Structure and Workflow
 **Key Components**
@@ -90,7 +89,7 @@ If not found, You have to upload both files in the same directry as the main fil
 ## 5. Simulated Time for Fine Calculation
 - To facilitate testing without waiting for days, the system simulates time by treating 1 minute as 1 day. For example, if a student has 15 days to return a book, it will be 15 minutes in this simulation. Fines and due date checks are based on this simulated time.
 
-### Conclusion
+# Conclusion
 This Library Management System is designed using modern C++ techniques, demonstrating object-oriented programming concepts like inheritance and polymorphism, as well as practical file I/O for data persistence. Enjoy managing your library and feel free to extend the system further as needed.
 
 *Happy Coding!*
