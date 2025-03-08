@@ -11,7 +11,6 @@ The system allows:
 
 Each user logs in with a unique ID and password. The system simulates time for testing purposes, with 60 seconds representing one day.
 
-
 ## Features
 
 - **Role-Based Access Control:**
@@ -32,6 +31,7 @@ Each user logs in with a unique ID and password. The system simulates time for t
   
 - **users.txt:** Stores user records. Each line is in the format:  
   `UserID|Name|Email|Role|Password|Fine|BorrowedRecords`
+  
   *BorrowedRecords* are in the format `ISBN:borrowtimestamp` (multiple records are separated by commas).
   
 - **Makefile:** Contains build instructions.
