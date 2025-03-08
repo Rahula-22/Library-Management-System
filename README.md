@@ -1,6 +1,6 @@
 # Library Management System
 
-This project implements a Library Management System in C++ using Object-Oriented Programming (OOP) principles. It supports multiple user roles—Students, Faculty, and Librarians—and uses file-based persistence for books and user data.
+This project implements a Library Management System in C++ using Object-Oriented Programming (OOP) principles. It supports multiple user roles such as Students, Faculty, and Librarians and uses file-based persistence for books and user data.
 
 ## Overview
 
@@ -25,17 +25,12 @@ Each user logs in with a unique ID and password. The system simulates time for t
 
 ## File Structure
 
-
 - **main.cpp:** Contains the complete C++ source code.
 - **books.txt:** Stores book records. Each line is in the format:  
   `ISBN|Title|Author|Publisher|Year|Status`
 - **users.txt:** Stores user records. Each line is in the format:  
   `UserID|Name|Email|Role|Password|Fine|BorrowedRecords`  
-  *BorrowedRecords* are in the format `ISBN:borrowTimestamp` (multiple records are separated by commas).
+  *BorrowedRecords* are in the format `ISBN:borrowtimestamp` (multiple records are separated by commas).
 - **Makefile:** Contains build instructions.
 - **README.md:** This file.
-
-## Build Instructions
-
-To compile the project, open a terminal in the project directory and run:
 
