@@ -26,16 +26,15 @@ Each user logs in with a unique ID and password. The system simulates time for t
 ## File Structure
 
 - **main.cpp:** Contains the complete C++ source code.
-- 
+  
 - **books.txt:** Stores book records. Each line is in the format:  
   `ISBN|Title|Author|Publisher|Year|Status`
   
 - **users.txt:** Stores user records. Each line is in the format:  
   `UserID|Name|Email|Role|Password|Fine|BorrowedRecords`
-  
   *BorrowedRecords* are in the format `ISBN:borrowtimestamp` (multiple records are separated by commas).
   
 - **Makefile:** Contains build instructions.
-- 
+  
 - **README.md:** This file.
 
