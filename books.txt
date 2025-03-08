@@ -1,0 +1,10 @@
+ISBN001|C++ Primer|Lippman|Addison-Wesley|2012|Borrowed
+ISBN002|The C++ Programming Language|Stroustrup|Addison-Wesley|2013|Available
+ISBN003|Effective C++|Meyers|O'Reilly|2005|Borrowed
+ISBN004|Design Patterns|Gamma et al.|Addison-Wesley|1994|Available
+ISBN005|Clean Code|Robert C. Martin|Prentice Hall|2008|Available
+ISBN006|Introduction to Algorithms|CLRS|MIT Press|2009|Available
+ISBN007|Programming Pearls|Bentley|Addison-Wesley|1986|Available
+ISBN008|Head First C++|Meyer|O'Reilly|2004|Available
+ISBN009|Accelerated C++|Koenig & Moo|Addison-Wesley|2000|Available
+ISBN010|C++ Concurrency in Action|Williams|Manning|2012|Available
