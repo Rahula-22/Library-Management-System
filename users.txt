@@ -1,0 +1,12 @@
+101|Rahul|rahul@example.com|Student|pass101|0|ISBN001:1741254668
+102|Aayush|aayush@example.com|Student|pass102|0|
+103|Akash|akash@example.com|Student|pass103|0|
+104|Vedprakash|vedu@example.com|Student|pass104|0|
+105|Ashish|ashihs@example.com|Student|pass105|0|
+201|Dr. Shubham Sahay|ssahay@example.com|Faculty|pass201|0|
+202|Dr. James bond|jbond@example.com|Faculty|pass202|0|
+203|Dr. Abhijeet|abhijeet@example.com|Faculty|pass203|0|
+301|Mr. Ayan|ayan@example.com|Librarian|pass301|0|
+111|mohit|mohit2gmail.com|Student|pass111|0|ISBN003:1741425621
+112|karishma|kari@gmail.com|Student|pass112|0|
+123|rekha|rakha@gmail.com|Faculty|pass123|0|
