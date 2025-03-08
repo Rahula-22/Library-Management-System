@@ -25,12 +25,12 @@ The system allows:
 - **main.cpp:** Contains the complete C++ source code.
   
 - **books.txt:** Stores book records. It contains the records for each book (ISBN, title, author, publisher, year, and status). Each line is in the format:  
-  `ISBN|Title|Author|Publisher|Year|Status`
+  ISBN|Title|Author|Publisher|Year|Status
   
 - **users.txt:** Stores user records. It contains user information (User ID, name, email, role, password, and borrowing details). Each line is in the format:  
-  `UserID|Name|Email|Role|Password|Fine|BorrowedRecords`
+  UserID|Name|Email|Role|Password|Fine|BorrowedRecords
   
-  *BorrowedRecords* are in the format `ISBN:borrowtimestamp` (multiple records are separated by commas).
+  *BorrowedRecords* are in the format ISBN:borrowtimestamp (multiple records are separated by commas).
   
 - **README.md:** This file.
 
